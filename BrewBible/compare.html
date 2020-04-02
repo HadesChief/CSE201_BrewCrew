@@ -1,0 +1,103 @@
+<!-- Copyright 2020 Andrei Cerci -->
+<!-- Created on 2 April 2020 -->
+<!-- Blue sky home page Brew Crew -->
+<!-- All logos and drawings were drawn using Microsoft Word and Paint 3D and are subject to Copyright-->
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Brew Bible</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Shrikhand&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="compareStyle.css">
+	<link rel="icon" type="img/png" href="Logo.png">
+</head>
+<body>
+	
+	<div id="title" class="container-fluid" >
+		<h1 id="name">Brew Bible</h1>
+	</div>
+	
+	<div id="pages" class="row" style="width: 100%;">
+		<div class="column">
+			<!-- need to include php file soon will run data base on ceclnx in mysql -->
+			<form style="background-color: black; color: white; padding: 25px;"> 
+				<!-- beer 1 -->
+				<label>Search Beer</label>
+				<textarea class="form-control" id="seach_1" rows="1" cols="30"></textarea>
+				
+				<label>Brand</label>
+				<select class="form-control" id="brand"> 
+					<option>Anheuser-Busch</option>
+					<option>Coors Brewing Company</option>
+					<option>Miller Brewing Company</option>
+				</select>
+				
+				<label>Country</label>
+				<select class="form-control" id="brand"> 
+					<option>United States</option>
+					<option>Germany</option>
+					<option>Belgium</option>
+					<option>Ireland</option>
+				</select>
+				
+			</form>
+		</div>
+		<div class="column">
+			<!-- need to include php file soon will run data base on ceclnx in mysql -->
+			<form style="background-color: black; color: white; padding: 25px;"> 
+				<!-- beer 2 -->
+				<label>Search Beer</label>
+				<textarea class="form-control" id="seach_1" rows="1" cols="30"></textarea>
+				
+				<label>Brand</label>
+				<select class="form-control" id="brand"> 
+					<option>Anheuser-Busch</option>
+					<option>Coors Brewing Company</option>
+					<option>Miller Brewing Company</option>
+				</select>
+				
+				<label>Country</label>
+				<select class="form-control" id="brand"> 
+					<option>United States</option>
+					<option>Germany</option>
+					<option>Belgium</option>
+					<option>Ireland</option>
+				</select>
+			</form>
+		</div>
+	</div>
+	
+	<div id="results" class="row" style="width: 100%;">
+		<div id="res1" class="column">
+			<p id="results_1"></p>
+		</div>
+		<div id="res2" class="column">
+			<p id="results_2"></P>
+		</div>
+		
+	</div>
+		
+	<script> 
+
+		var beer = [];
+		var res = "";
+		var i;
+		for (var j = 0; j < 20; j++) {
+			beer.push("IMG | NAME | BRAND | COUNTRY | TYPE | PRICE");
+		}
+		for (i = 0; i < beer.length; i++) {
+			res += beer[i] + "<br>";
+		}
+		document.getElementById("results_1").innerHTML = res;
+		document.getElementById("results_2").innerHTML = res;
+	</script>
+	<!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+	
+</body>
+</html>

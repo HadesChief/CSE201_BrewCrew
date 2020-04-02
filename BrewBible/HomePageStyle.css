@@ -1,0 +1,67 @@
+#title {
+	background-color: black;
+	color: yellow;
+	height: 20%;
+	width: 100%;
+	margin-bottom: 50px;
+	
+}
+
+#logo {
+	width: 10%;
+	background-color:black;
+	margin-left: 30px;
+	margin-top: 15px;
+}
+
+#name {
+	margin: auto;
+	text-align: center;
+	font-family: 'Shrikhand', cursive;
+	padding-top: 25px;
+	font-size: 8vw;
+	
+}
+
+#log {
+	background-color: yellow;
+	border-color: yellow;
+	color: black;
+}
+
+#ser {
+	background-color: yellow;
+	border-color: yellow;
+	color: black;
+}
+
+#login {
+	float: right;
+	margin-top: 7%;
+	margin-right: 2%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding-left: 75px;
+  padding-right:75px;
+  padding-top: 30px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+@media screen and (max-width: 800px) {
+  .column {
+    width: 60%;
+	margin: auto;
+  }
+}
