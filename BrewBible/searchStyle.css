@@ -31,3 +31,18 @@
 	padding: 25px; 
 	text-align: center; 
 }
+
+a {
+	color: yellow;
+	text-decoration: none;
+}
+
+a:hover {
+	color: yellow;
+	text-decoration: none;
+}
+
+a:visited {
+	color: yellow;
+	text-decoration: none;
+}

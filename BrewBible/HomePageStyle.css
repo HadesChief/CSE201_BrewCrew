@@ -19,8 +19,7 @@
 	text-align: center;
 	font-family: 'Shrikhand', cursive;
 	padding-top: 25px;
-	font-size: 8vw;
-	
+	font-size: 8vw;	
 }
 
 #log {
@@ -64,4 +63,19 @@
     width: 60%;
 	margin: auto;
   }
+}
+
+a {
+	color: yellow;
+	text-decoration: none;
+}
+
+a:hover {
+	color: yellow;
+	text-decoration: none;
+}
+
+a:visited {
+	color: yellow;
+	text-decoration: none;
 }

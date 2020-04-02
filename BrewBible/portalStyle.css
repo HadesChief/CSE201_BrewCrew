@@ -32,3 +32,18 @@
 	font-size: 1.75vw;
 	width: 75%;
 }
+
+a {
+	color: yellow;
+	text-decoration: none;
+}
+
+a:hover {
+	color: yellow;
+	text-decoration: none;
+}
+
+a:visited {
+	color: yellow;
+	text-decoration: none;
+}
