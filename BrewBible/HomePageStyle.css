@@ -3,7 +3,7 @@
 	color: yellow;
 	height: 20%;
 	width: 100%;
-	margin-bottom: 50px;
+	margin-bottom: 0px;
 	
 }
 
@@ -39,7 +39,6 @@
 	margin-top: 7%;
 	margin-right: 2%;
 }
-
 * {
   box-sizing: border-box;
 }
@@ -47,9 +46,9 @@
 .column {
   float: left;
   width: 33.33%;
-  padding-left: 75px;
-  padding-right:75px;
-  padding-top: 30px;
+  padding-left: 100px;
+  padding-right: 120px;
+  padding-top: 0px;
 }
 
 .row::after {
