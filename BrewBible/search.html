@@ -19,51 +19,24 @@
 		<a href="HomePage.html"><h1 id="name">Brew Bible</h1></a>
 	</div>
 	
-	<div id="search" >
-		<!-- need to include php file soon will run data base on ceclnx in mysql -->
-		<form style="background-color: black; color: white; padding: 25px;"> 
-			<!-- beer 1 -->
-			<label>Search Beer</label>
-			<textarea class="form-control" id="seach_1" rows="1" cols="30"></textarea>
-			
-			<label>Brand</label>
-			<select class="form-control" id="brand"> 
-				<option>Anheuser-Busch</option>
-				<option>Coors Brewing Company</option>
-				<option>Miller Brewing Company</option>
-			</select>
-			
-			<label>Country</label>
-			<select class="form-control" id="brand"> 
-				<option>United States</option>
-				<option>Germany</option>
-				<option>Belgium</option>
-				<option>Ireland</option>
-			</select>
-			
-		</form>
-	</div>
-	
-	<div id="results">
-		<div id="res1">
-			<p id="results_1"></p>
+	<div id="pages" >
+		<div class="column">
+			<!-- need to include php file soon will run data base on ceclnx in mysql -->
+			<form style="background-color: black; color: white; padding: 25px;" action="index.php" method="post"> 
+				<!-- beer 1 -->
+				<label>Brand</label>
+				<textarea class="form-control" id="seach_1" rows="1" cols="30" name="brand"></textarea>
+				<label>Name</label>                                            
+				<textarea class="form-control" id="seach_1" rows="1" cols="30" name="name"></textarea>
+				<label>Country</label>                                         
+				<textarea class="form-control" id="seach_1" rows="1" cols="30" name="country"></textarea>
+				<label>Type</label>                                            
+				<textarea class="form-control" id="seach_1" rows="1" cols="30" name="type"></textarea>                                
+				<input type="submit" style="margin-top:10px">
+			</form>
 		</div>
 	</div>
-		
-	<script> 
-
-		var beer = [];
-		var res = "";
-		var i;
-		for (var j = 0; j < 20; j++) {
-			beer.push("IMG | NAME | BRAND | COUNTRY | TYPE | PRICE");
-		}
-		for (i = 0; i < beer.length; i++) {
-			res += beer[i] + "<br>";
-		}
-		document.getElementById("results_1").innerHTML = res;
-
-	</script>
+	
 	<!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

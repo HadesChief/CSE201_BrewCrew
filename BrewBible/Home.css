@@ -1,25 +1,43 @@
-
 #title {
 	background-color: black;
 	color: yellow;
 	height: 15%;
-	width: 100%;	
+	width: 100%;
+	margin-bottom: 0px;
+	
+}
+
+#logo {
+	width: 7%;
+	background-color:black;
+	margin-left: 30px;
+	margin-top: 15px;
 }
 
 #name {
 	margin: auto;
 	text-align: center;
 	font-family: 'Shrikhand', cursive;
-	padding-top: 20px;
-	font-size: 5vw;	
+	padding-top: 25px;
+	font-size: 6vw;	
 }
 
-#banner {
-	 height: 320px; 
-	 background-image: url(bg21.jpg); 
-	 background-size: 100%; 
-	 overflow: hidden; 
-	 background-repeat: no-repeat;
+#log {
+	background-color: yellow;
+	border-color: yellow;
+	color: black;
+}
+
+#ser {
+	background-color: yellow;
+	border-color: yellow;
+	color: black;
+}
+
+#login {
+	float: right;
+	margin-top: 4%;
+	margin-right: 2%;
 }
 
 #quote {
@@ -32,7 +50,13 @@
 	font-size: 1.75vw;
 	width: 25%;
 }
-
+#banner {
+	 height: 320px; 
+	 background-image: url(bg21.jpg); 
+	 background-size: 100%; 
+	 overflow: hidden; 
+	 background-repeat: no-repeat;
+}
 * {
   box-sizing: border-box;
 }
@@ -42,6 +66,7 @@
   width: 33.33%;
   padding-left: 100px;
   padding-right: 120px;
+  padding-top: 0px;
 }
 
 .row::after {
@@ -54,10 +79,8 @@
   .column {
     width: 60%;
 	margin: auto;
-	padding-bottom: 20px;
   }
 }
-
 
 a {
 	color: yellow;
@@ -72,41 +95,4 @@ a:hover {
 a:visited {
 	color: yellow;
 	text-decoration: none;
-}
-
-.topnav {
-	overflow: hidden;
-	background-color: black;
-}
-
-.topnav p {
-	float: left;
-	color: yellow;
-	text-align: center;
-	font-size: 2vw;
-	font-family: 'Shrikhand', cursive; 
-	margin-left: 37%;
-}
-	
-
-.topnav a {
-	float: right;
-	color: yellow;
-	text-align: center;
-	padding-right: 20px;
-	padding-left: 20px;
-	text-decoration: none;
-	font-size: 2vw;
-	font-family: 'Shrikhand', cursive; 
-}
-
-
-.topnav a:hover {
-	background-color: yellow;
-	color: black;
-}
-
-.topnav a.active {
-	background-color: #4CAF50;
-	color: white;
 }
