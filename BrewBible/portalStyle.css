@@ -28,6 +28,7 @@
 	margin: auto;
 	text-align: center;
 	font-family: 'Shrikhand', cursive;
+	color: black;
 	padding-top: 25px;
 	font-size: 1.75vw;
 	width: 75%;
@@ -47,3 +48,41 @@ a:visited {
 	color: yellow;
 	text-decoration: none;
 }
+
+.column {
+  float: left;
+  width: 50%;
+  padding-left: 75px;
+  padding-right:75px;
+  padding-top: 30px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+@media screen and (max-width: 800px) {
+  .column {
+    width: 60%;
+	margin: auto;
+  }
+}
+
+#res1 {
+	padding: 25px; 
+	text-align: center; 
+}
+
+#res2 { 
+	padding: 25px; 
+	text-align: center; 
+}
+
+a {
+	color: yellow;
+	text-decoration: none;
+}
+
+

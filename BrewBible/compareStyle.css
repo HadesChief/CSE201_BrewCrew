@@ -1,9 +1,11 @@
+body {
+	background-color: black;
+}
 #title {
 	background-color: black;
 	color: yellow;
 	height: 20%;
 	width: 100%;
-	margin-bottom: 50px;
 	
 }
 
@@ -71,4 +73,14 @@ a:hover {
 a:visited {
 	color: yellow;
 	text-decoration: none;
+}
+
+#pages {
+	object-fit: cover;
+	width: 100%;
+	background-image: url(gc.jpg); 
+	background-size: 100%; 
+	overflow: hidden; 
+	background-repeat: no-repeat;
+
 }

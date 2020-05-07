@@ -1,0 +1,84 @@
+#title {
+	background-color: black;
+	color: yellow;
+	height: 20%;
+	width: 100%;	
+}
+
+#name {
+	margin: auto;
+	text-align: center;
+	font-family: 'Shrikhand', cursive;
+	padding-top: 25px;
+	font-size: 4vw;
+}
+
+
+#login {
+	float: right;
+	margin-top: 7%;
+	margin-right: 2%;
+}
+
+#search {
+	width: 75%;
+	margin: auto;
+}
+#res1 {
+	padding: 25px; 
+	text-align: center; 
+}
+
+#ppl {
+	margin-left: 20px;
+	width: 80%;
+}
+
+h3 {
+	font-family: 'Shrikhand', cursive;
+	color: black;
+	font-size: 3vw;
+}
+
+#pic {
+	height: 250px; 
+	overflow: hidden;
+}
+
+@media screen and (max-width: 800px) {
+  #pic {
+	display: none;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  h3 {
+    font-size: 7vw;
+  }
+}
+
+p { 
+	color: black;
+	font-size: 1.5vw;
+}
+
+@media screen and (max-width: 1050px) {
+  p {
+    font-size: 5vw;
+  }
+}
+
+a {
+	color: yellow;
+	text-decoration: none;
+}
+
+a:hover {
+	color: yellow;
+	text-decoration: none;
+}
+
+a:visited {
+	color: yellow;
+	text-decoration: none;
+}
